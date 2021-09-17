@@ -37,14 +37,13 @@ $pdf->SetAuthor('UrianViera');
 $pdf->SetTitle('Factura de Pedido');
 $pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
  
+
+
+$pdf->AddPage(); //Genero mi Nueva pagina
+
+$canal ="WebDeveloper";
+
 //tipo de fuente y tamanio
-$pdf->SetFont('helvetica', '', 10);
-$pdf->AddPage(); //Nueva pagina
-
-$canal ="";
-//$canal ="WebDeveloper";
-
-
 $pdf->SetFont('Helvetica', 'B', 25, '', 'false');
 $pdf->SetFillColor(100, 0, 0, 0);
 $pdf->SetTextColor(100, 0, 0, 0);

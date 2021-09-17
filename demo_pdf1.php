@@ -65,7 +65,7 @@ $pdf->SetFont('Helvetica', 'B', 15, '', 'false');
 $pdf->SetFillColor(0, 100, 0, 0);
 $pdf->SetTextColor(0, 100, 0, 0);
 $pdf->SetXY(5, 120);
-$pdf->Cell(200,0, 'Urian Viera Jose Viera Parra',0,0,'C');
+$pdf->Cell(200,0, 'Urian Viera - Programador & Desarrollador Web ',0,0,'C');
 
 
 
